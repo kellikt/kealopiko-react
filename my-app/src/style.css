@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans&display=swap');
 .ui.borderless.navbar.menu {
   box-shadow: none;
   border: none;
@@ -22,8 +23,8 @@
   color: #777;
 }
 .middle.text{
-  color: #464646;
-  text-align: center;
+  color: #464646 !important;
+  text-align: center !important;
 }
 hr {
   background-color: #898989;
@@ -63,6 +64,8 @@ a{
 }
 .medium.text{
   font-size: 24px;
+  text-align: center;
+  font-family: 'Pontano Sans', sans-serif;
   color: #333333;
 }
 #locations{
@@ -79,23 +82,32 @@ a{
 .footer.text{
   font-size: 14px;
   font-family: 'Pontano Sans', sans-serif;
-  color: #333333;
+  color: #333333 !important;
 }
 .ui.borderless.bottom.menu{
-  padding-left: 140px;
+  padding-left: 200px;
   box-shadow: none;
   border: none;
   background-color: #e3e3e3;
+  margin-bottom: 0;
 }
 .lowest{
   background-color: #e3e3e3;
   font-family: 'Pontano Sans', sans-serif;
-  padding-top: 25px;
-  height: 100px;
+  padding-top: 15px;
+  height: 50px;
 }
 .lowest.text{
   font-size: 14px;
   font-family: 'Pontano Sans', sans-serif;
   color: #333333;
   text-align: center;
+}
+.ui.fitted.menu .item {
+  color: #959595 !important;
+  padding-right: 5px !important;
+}
+.ui.menu .fitted.item {
+  padding-right: 10px !important;
+  color: #777 !important;
 }
